@@ -73,18 +73,18 @@ export default function App()
   const reviews = [
 
     {
-      name: 'Priya S.',
-      text: 'Best coffee I have ordered online. Super fresh and aromatic.',
+      name: 'Riya Madan',
+      text: 'The smell is incredible as soon as you open the bag, and the taste is really smooth and fresh. It is now the only coffee beans I use at home',
     },
 
     {
-      name: 'Rahul M.',
-      text: 'Beautiful packaging and premium quality coffee beans.',
+      name: 'Akshay Thakur',
+      text: 'I honestly look forward to my first cup every single day. It’s the kind of drink that actually makes you want to sit down and enjoy it for a minute before starting your day.',
     },
 
     {
-      name: 'Aisha K.',
-      text: 'The espresso machine section is amazing. Smooth shopping experience.',
+      name: 'Mohit Singh',
+      text: 'I finally decided to upgrade my setup and I'm so glad I did. Everything equipment is well-made and sturdy. It’s easy to use and it has made a huge difference in how my coffee tastes.',
     },
 
   ]
