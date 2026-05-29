@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+*
+{
+  transition: all 0.3s ease;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: 'Inter', sans-serif;
+    background: white;
+    overflow-x: hidden;
+}
+
+img
+{
+  transition: transform 0.5s ease;
+  max-width: 100%;
+  display: block;
+}
+
+@keyframes float
+{
+  0%
+  {
+    transform: translateY(0px);
+  }
+  50%
+  {
+    transform: translateY(-12px);
+  }
+  100%
+  {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation
+{
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes fadeUp
+{
+  from
+  {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to
+  {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up
+{
+  animation: fadeUp 1s ease forwards;
+}
+
