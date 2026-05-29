@@ -84,7 +84,7 @@ export default function App()
 
     {
       name: 'Mohit Singh',
-      text: 'I finally decided to upgrade my setup and I'm so glad I did. Everything equipment is well-made and sturdy. It’s easy to use and it has made a huge difference in how my coffee tastes.',
+      text: "I finally decided to upgrade my setup and I'm so glad I did. Everything equipment is well-made and sturdy. It’s easy to use and it has made a huge difference in how my coffee tastes.",
     },
 
   ]
